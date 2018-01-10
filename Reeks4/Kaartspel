@@ -1,0 +1,26 @@
+### Alpha ###
+#plaats hieronder je oplossing:
+cat kaarten.txt | egrep -v "[JQK].* "
+### Beta ###
+#plaats hieronder je oplossing:
+cat kaarten.txt | egrep "([2-9TJQKA])[cdhs].*\1[cdhs].*\1[cdhs].*\1[cdhs].* .*"
+### Gamma ###
+#plaats hieronder je oplossing:
+cat kaarten.txt | grep ".*c.*c.*c.* " | grep ".*d.*d.*d.* " | grep ".*h.*h.*h.* " | grep ".*s.*s.*s.* "
+### Delta ###
+#plaats hieronder je oplossing:
+
+cat kaarten.txt | egrep -v "[c].*[dsh].*[c].* " | egrep -v "d.*[csh].*d.* " | egrep -v "s.*[chd].*s.* " | egrep -v "h.*[cds].*h.* "
+
+### Eerste woord ###
+#plaats hieronder je oplossing:
+cat kaarten.txt | egrep -v "[JQK].* " | egrep "([2-9TJQKA])[cdhs].*\1[cdhs].*\1[cdhs].*\1[cdhs].* .*" | cut -d" " -f 2
+### Tweede woord ###
+#plaats hieronder je oplossing:
+cat kaarten.txt | egrep "([2-9TJQKA])[cdhs].*\1[cdhs].*\1[cdhs].*\1[cdhs].* .*" | grep ".*c.*c.*c.* " | grep ".*d.*d.*d.* " | grep ".*h.*h.*h.* " | grep ".*s.*s.*s.* " | cut -d" " -f 2
+### Derde woord ###
+#plaats hieronder je oplossing:
+cat kaarten.txt | grep ".*c.*c.*c.* " | grep ".*d.*d.*d.* " | grep ".*h.*h.*h.* " | grep ".*s.*s.*s.* " | egrep -v "[c].*[dsh].*[c].* " | egrep -v "d.*[csh].*d.* " | egrep -v "s.*[chd].*s.* " | egrep -v "h.*[cds].*h.* " | cut -d" " -f 2
+### Vierde woord ###
+#plaats hieronder je oplossing:
+cat kaarten.txt | egrep -v "[c].*[dsh].*[c].* " | egrep -v "d.*[csh].*d.* " | egrep -v "s.*[chd].*s.* " | egrep -v "h.*[cds].*h.* " | egrep -v "[JQK].* " | cut -d" " -f 2

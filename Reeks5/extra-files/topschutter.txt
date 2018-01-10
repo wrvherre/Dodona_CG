@@ -1,0 +1,46 @@
+#
+ank;Player;Country;Goals;Apps;Ratio;Start year-Stop year;Clubs
+88;Cristiano Ronaldo;0.73;121;03;Portugal;
+80;Lionel Messi;0.78;102;05;Argentina;
+3;Raúl;Spain;71;142;0.5;'95-'11;Real Madrid,Schalke 04
+4;Ruud van Nistelrooy;Netherlands;56;73;0.77;'98-'09;PSV,Manchester United,Real Madrid
+5;Thierry Henry;France;50;112;0.45;'97-'10;Monaco,Arsenal,Barcelona
+6;Alfredo Di Stéfano;Argentina;49;58;0.84;'55-'64;Real Madrid
+7;Andriy Shevchenko;Ukraine;48;100;0.48;'94-'12;Dynamo Kyiv,Milan,Chelsea
+8;Eusébio;Portugal;46;65;0.71;'61-'74;Benfica
+46;Karim Benzema;0.6;77;06;France;
+10;Filippo Inzaghi;Italy;46;81;0.57;'97-'12;Juventus,Milan
+12;Didier Drogba;Ivory Coast;44;92;0.48;'03-'15;Marseille,Chelsea,Galatasaray
+13;Alessandro Del Piero;Italy;42;89;0.46;'95-'09;Juventus
+14;Ferenc Puskás;Hungary;36;41;0.88;'56-'66;Budapest Honvéd,Real Madrid
+15;Gerd Müller;West Germany;35;35;1;'69-'77;Bayern Munich
+33;Thomas Müller;0.45;74;08;Germany;
+30;Robert Lewandowski;0.65;46;11;Poland;
+30;Wayne Rooney;0.35;85;04;England;
+21;Kaká;Brazil;30;86;0.35;'03-'14;Milan,Real Madrid
+22;Francisco Gento;Spain;30;89;0.34;'55-'69;Real Madrid
+23;David Trezeguet;France;29;58;0.5;'97-'09;Monaco,Juventus
+24;Roy Makaay;Netherlands;29;61;0.48;'00-'07;Deportivo La Coruña,Bayern Munich
+25;Patrick Kluivert;Netherlands;29;71;0.41;'94-'06;Ajax,Barcelona
+26;Ryan Giggs;Wales;29;145;0.2;'93-'14;Manchester United
+27;Jean-Pierre Papin;France;28;37;0.76;'89-'94;Marseille,Milan,Bayern Munich
+28;Rivaldo;Brazil;27;73;0.37;'97-'07;Barcelona,Milan,Olympiacos
+26;Mario Gómez;0.58;45;07;Germany;
+30;Mário Jardel;Brazil;25;46;0.54;'96-'01;Porto,Galatasaray
+25;Robin van Persie;0.42;59;02;Netherlands;
+34;José Altafini;Brazil;24;28;0.86;'59-'76;Milan,Juventus
+35;Marco Simone;Italy;24;46;0.52;'89-'01;Milan,Paris Saint-Germain,Monaco
+36;José Augusto;Portugal;24;56;0.43;'59-'69;Benfica
+37;Giovane Élber;Brazil;24;69;0.35;'97-'04;Bayern Munich,Lyon
+38;Luís Figo;Portugal;24;103;0.23;'97-'09;Barcelona,Real Madrid,Internazionale
+39;Paul Scholes;England;24;124;0.19;'94-'13;Manchester United
+40;Jari Litmanen;Finland;23;59;0.39;'93-'02;Ajax,Liverpool
+41;Frank Lampard;England;23;105;0.22;'01-'15;Chelsea,Manchester City
+42;Santillana;Spain;22;46;0.48;'71-'88;Real Madrid
+21;Sergio Agüero;0.51;41;08;Argentina;
+44;Serhiy Rebrov;Ukraine;21;43;0.49;'93-'07;Dynamo Kyiv
+45;Amancio;Spain;21;52;0.4;'62-'76;Real Madrid
+21;Claudio Pizarro;0.29;73;01;Peru;
+47;Steven Gerrard;England;21;73;0.29;'01-'15;Liverpool
+48;Romário;Brazil;20;32;0.63;'88-'95;Barcelona,PSV
+20;Luiz Adriano;0.48;42;08;Brazil;

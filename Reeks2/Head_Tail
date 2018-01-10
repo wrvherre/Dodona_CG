@@ -1,0 +1,16 @@
+### command 1 ###
+
+# plaats hier het commando
+cat numbers.txt | tail -n 25
+### command 2 ###
+
+# plaats hier het commando
+cat numbers.txt | head -n 75 | tail -n 51 
+### command 3 ###
+
+# plaats hier het commando
+cat numbers.txt | head -n 2 | tail -n 1
+### command 4 ###
+
+# plaats hier het commando
+ls ~ -a | wc -l

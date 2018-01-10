@@ -1,0 +1,1 @@
+find . -name '*.$extension' -exec cat {} + | wc -l 

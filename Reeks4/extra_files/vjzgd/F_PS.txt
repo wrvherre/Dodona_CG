@@ -1,0 +1,23 @@
+000160535303;Favere;Justine
+000160613711;Feys;Theodora
+000161084664;Feys;Stanne
+000160217223;Frenkel - Kloosterman;Charissa
+000160393136;Fabri;Rowin
+000160469928;Fonteyne;Cas
+000160908347;François;Givinson
+000160664635;Faelens;Romana
+000160032115;Faelens;Allegra
+000131351841;Foré;Jef
+000130773679;Fahle;Lisa
+000110704985;Fiers;Anna
+000110177347;Friant;Louise
+000110114194;Fraeyman;Kaat
+000140124681;Flamang;Jelle
+000141047801;Fonteyne;Ewan
+000150469531;Fordham;Clara
+000150955440;Fonderie;Lucas
+000150526115;Ferreiro Betancor;Chloé
+000150621091;Formesyn;Alexander
+000100576367;Focke;Yamina
+000120470057;Favril;Elise
+000120650115;Falkena;Louis

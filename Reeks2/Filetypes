@@ -1,0 +1,1 @@
+find /dev -ls | awk '{print $3}' | cut -c1 | sort | uniq -c | sort -rn

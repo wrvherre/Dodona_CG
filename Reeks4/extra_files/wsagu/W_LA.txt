@@ -1,0 +1,52 @@
+000160727077;Wittevrongel;Margot
+000160515903;Wouters;Florence
+000160817108;Wilmet;Clara
+000160254508;Wieme;Juan Esteban
+000161084765;Walayat;Wannes
+000160118910;Warnez;Jarne
+000160043128;Weyers;Chloë
+000160060104;Wittock;Lisa
+000160825390;Warnes;Amber
+002000666224;Wermersche;Pieter
+000130040018;Welvaert;Cedric
+000130308180;WESTELINCK;Erjen
+000130399221;Willaert;Arne
+000130489349;Wondafrash Kibebew;Hoang Khai
+000130492783;Wos;Jolien
+000130045169;Winand;Celeste
+000090355395;Wydooghe;Isolde
+000090330339;Wils;Elise
+000110454405;Wancour;Matthias
+000110235648;Wink;Pauline
+000110296676;Wambacq;Steff
+000110201292;Weyts;Stefanie
+000110443287;Wolput;Wim
+000110159159;Windels;Joachim
+000141022640;Wouters;Robbert
+000140754474;Werbrouck;Michiel
+000140819243;Werbrouck;Diete
+000141055982;Wybo;Irene
+000140453875;WAKED;Damilola
+000141342134;Waithira;Sander
+000140623829;Wouters;Dias Mandala
+000140352431;Waegebaert;Michiel
+000150823781;Webster;Reindert
+000150525408;Willemyns;Lotte
+000151105182;Wei;Camille
+000150911889;Windey;Victor
+000151192886;Waterbley;Ruben
+000151052945;Willems;Marie
+000150486406;Wyffels;Joke
+000151150955;WILLE;Wout
+000150024745;Wullus;Jonas
+000150612506;Wallays;Marianne
+000150703745;Weyts;Tom
+000150762551;Willequet;Melvice Ngalle
+000151127717;Willems;Stijn
+000150646656;Wylin;Mary Ann
+000151489344;Wang;Wouter
+000101167764;Werniers;Monica
+000120155819;Wrona;Iram
+000120883319;Willems;Daniel
+000120591410;Wittevrongel;Alien
+000120822590;Waeterloos;Lies

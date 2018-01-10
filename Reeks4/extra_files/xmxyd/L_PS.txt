@@ -1,0 +1,80 @@
+000080659540;Lesage;Max
+000160611990;Longo Pezo Tshitende;Maaike
+000160475786;Leroy;Timon
+000161175297;Luca;Aïcha
+000161099014;Lamacq;Annick
+000160370201;Lizon;Osman
+000160527219;Lauryssens;Febe
+000160177918;Larosse;Yannick
+000160909054;Luntadila Lufungula;Jolien
+000160036458;Lambert;Mattis
+000160817209;Lameire;Marijke
+000161096889;Loier;Sien
+000161025858;Liekens;Houssemdine
+000160395459;Lozano Martínez;Rosanne
+000160913195;Luyts;Matthias
+000160969678;Lammens;Babette
+000160285123;LEFERE;Lieselotte
+000160783661;Leys;Robbe
+000160146794;Lettere;Amabelle
+000161008579;Landuyt;Marie
+000160009782;Liang;María José
+000160104459;Lewyllie;Margaux
+000160883691;Le Noir;Jef
+000130183494;Levecke;Hein
+000130653340;Laga;Furkan
+000130365774;Lampaert;Ine
+000130673346;Lahlali;Laurens
+000130013039;Lefebvre;Roma
+000130822886;Loyson;Beau
+000130967073;L'hoëst;Elke
+000130817735;Loosman;Goldi
+000130923122;Laporte;Lisa
+000130656673;Loncke;Hadeburg
+000130296258;Lambert;Ann
+000090040450;Logie;Astrid
+001995202191;Lammerant;Anja
+000140573006;Langhendries;Nunzia
+000140488534;Lefevre;Victor
+000140879766;Lin;Rui
+000140474083;Lapage;Meriem
+000140929781;Lesage;Anton
+000140880372;Lingier;Jasper
+000140710624;Léonard;Lieven
+000140318883;Landuyt;Simon
+000140577753;Lamers;Jules
+000140732852;LAMBERT;Helena
+000140906442;Lambrecht;Jana
+000141054164;Laroy;Korneel
+000140287359;Lesage;Silke
+000070794135;Llamas-Bravo;Stefan
+000150849447;Larsen;Jonas
+000151059514;Lievens;Bas
+000150213388;LAMBRECHT;Daan
+000150819236;Lammens;Louis-Philippe
+000150620283;Lammertijn;Astrid
+000150428105;Le Dieu;Hannes
+000150463770;Linn;Silke
+000150210257;Lisabeth;Hanne
+000150392234;Lemeire;Yentl
+000151391536;Liberton;Eliot
+000151043144;Lebegge;Lore
+000150558144;Leroy;Marie-Julie
+000150823983;Lievens;Bilitis
+000150874810;Loran;Julie
+000151086994;Lefever;Ann
+000150092847;Lansens;Jonas
+000151078207;Lasoen;Sebastiaan
+000150059606;Lammens;Magali
+000150016661;Loosveld;Aspet
+000100282135;Lambrecht;Esther
+000120222103;Lamote;Gerlinde
+000120301117;Lietaer;Laura
+000120926563;Lenoir;Simon
+000120590497;Lasure;Sarah
+000120474303;Lateur;Angela Joan
+000120446718;Lormans;Loredana
+000120270296;Lievens;Bjorn
+802001531020;Langlois;Melanie
+000060078867;Louagie;Kirby
+000060540831;Lauwers;Mathieu

@@ -1,0 +1,20 @@
+### command 1 ###
+
+# plaats hier het commando
+cal -h 2017
+### command 2 ###
+
+# plaats hier het commando
+sleep 3
+### command 3 ###
+
+# plaats hier het commando
+time sleep 3
+### command 4 ###
+
+# plaats hier het commando
+date '+%d%n%m%n%H%n%M'
+### command 5 ###
+
+# plaats hier het commando
+history 3

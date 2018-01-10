@@ -1,0 +1,12 @@
+### command ###
+
+# plaats hier het commando
+diff troonrede.txt troonrede_fout.txt 
+
+### woord troonrede.txt ###
+
+echo ongewijzigd
+
+### woord troonrede_fout.txt ###
+
+echo ongeweizigd

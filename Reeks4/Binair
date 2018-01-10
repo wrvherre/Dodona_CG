@@ -1,0 +1,16 @@
+### Commando 1 ###
+#plaats hier je oplossing
+cat binair.txt | grep ".*00$"
+### Commando 2 ###
+#plaats hier je oplossing
+cat binair.txt | grep "^1.*1$"
+### Commando 3 ###
+#plaats hier je oplossing
+cat binair.txt | grep "110"
+### Commando 4 ###
+#plaats hier je oplossing
+cat binair.txt | grep ".*1.*1.*1.*"
+### Commando 5 ###
+#plaats hier je oplossing
+cat binair.txt | grep "111"
+

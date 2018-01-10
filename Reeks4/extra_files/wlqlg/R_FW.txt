@@ -1,0 +1,26 @@
+000080629430;Ryckeboer;Baptist
+000160621286;Raes;Naomi
+000160552578;ROELS;Florine
+000160355750;Raja;Marie
+000160360497;Roels;Cedric
+000160371211;Revyn;Vanessa
+000131012139;Robaeyst;Ruth
+000097008585;Robinet;Margot
+000110575956;Rombaut;Hannah
+000111035896;Rombaut;Delphine
+000140256239;Ringoir;Veronique
+000140561080;Raedemaeker;Lisa
+000140378905;Rooseleer;Kimberly
+000140986870;Rodriguez Herrero;Cynthia
+000140593315;Raeman;Brecht
+000150041317;Rousseau;Celien
+000150934222;Rodriguez Fereira;Emma
+000150792156;Rayée;Lise
+000150718293;Rouquart;Viktor
+000120186636;Robin;Silke
+000127096773;Raedemaeker;Joke
+000120407009;Robbe;Camille
+000120329207;Rydant;Pauline
+000120780760;Roosens;Leonie
+000120123887;Raes;Michiel
+000120614648;Roose;Joy

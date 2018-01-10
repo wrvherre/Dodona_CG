@@ -1,0 +1,14 @@
+####
+echo COMPUTER > output.txt
+##2##
+wget https://dodona.ugent.be/exercises/1411140069/media/reservoir.txt 2>/dev/null
+##3##
+cat reservoir.txt >> output.txt
+##4##
+whoami > userinfo 2>&1
+##5##
+//
+##6##
+//
+##7##
+//

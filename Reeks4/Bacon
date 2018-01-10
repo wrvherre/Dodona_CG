@@ -1,0 +1,36 @@
+### Alpha ###
+
+# plaats hier je code:
+cat bacon.txt | grep -i '^[^bacon]*b[^bacon]*a[^bacon]*c[^bacon]*o[^bacon]*n[^bacon]* .*$'
+### Beta ###
+
+# plaats hier je code:
+cat bacon.txt | egrep "([[:lower:]])[[:upper:]]{4,}\1"
+
+### Gamma ###
+
+# plaats hier je code:
+cat bacon.txt | egrep -i "^([aeiou]{2})?([^aeiou]{2}[aeiou]{2})*([^aeiou]{2})? "
+
+
+### Delta ###
+
+# plaats hier je code:
+cat bacon.txt | grep -iv "\(.\).*\1.*\1.*\1.* "
+
+### Eerste woord ###
+
+# plaats hier je code:
+cat bacon.txt | grep -i '^[^bacon]*b[^bacon]*a[^bacon]*c[^bacon]*o[^bacon]*n[^bacon]* .*$' | egrep "([[:lower:]])[[:upper:]]{4,}\1" | sed "s/\(.*\) \(.*\)/\2/g"
+### Tweede woord ###
+
+# plaats hier je code:
+cat bacon.txt | egrep "([[:lower:]])[[:upper:]]{4,}\1" | egrep -i "^([aeiou]{2})?([^aeiou]{2}[aeiou]{2})*([^aeiou]{2})? " | sed "s/\(.*\) \(.*\)/\2/g"
+### Derde woord ###
+
+# plaats hier je code:
+cat bacon.txt | egrep -i "^([aeiou]{2})?([^aeiou]{2}[aeiou]{2})*([^aeiou]{2})? " | grep -iv "\(.\).*\1.*\1.*\1.* "  | sed "s/\(.*\) \(.*\)/\2/g"
+### Vierde woord ###
+
+# plaats hier je code:
+cat bacon.txt | grep -iv "\(.\).*\1.*\1.*\1.* " | grep -i '^[^bacon]*b[^bacon]*a[^bacon]*c[^bacon]*o[^bacon]*n[^bacon]* .*$' | sed "s/\(.*\) \(.*\)/\2/g"

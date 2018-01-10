@@ -1,0 +1,1 @@
+cat soep | sed 's/[^a-zA-Z]//g' | tr -d "\n"

@@ -1,0 +1,2 @@
+find . -type f -name "*_WE.txt" -exec cat {} + | grep "^00016" | cut -d ";" -f3 | sort | uniq -c | sort -k1rn -k2 | head -n5
+
