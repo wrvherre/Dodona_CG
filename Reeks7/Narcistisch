@@ -1,0 +1,29 @@
+#!/bin/bash
+
+##houdt de som bij na elke loop-iteratie
+sum=0
+
+##gaat elk cijfer van het eerste argument af
+##tot de $2-de macht en wordt opgeteld bij sum.
+
+for((i=0;i<${#1};i++));do
+
+	##werkt niet voor grote getallen:
+	##letter_kwadraat=$(( ${1:i:1}**$2 ))
+	##sum=$(( $letter_kwadraat + $sum ))
+
+
+	##werkend:
+	##opgelet: de dubbele quotes zijn belangrijk, enkele werken niet ("x" ipv 'x'Ã)
+################################################################
+
+	letter_kwadraat=$( echo "${1:i:1}^$2" | bc -l )
+	sum=$( echo "$letter_kwadraat + $sum" | bc -l )
+
+################################################################
+
+##debug:
+	## echo $letter_kwadraat
+done
+
+echo $sum
