@@ -1,0 +1,24 @@
+#!/bin/bash
+
+## words verdubbelen met # ertussen
+## alles is een lang commando, door de lengte ervan
+## word het opgesplitst oer verschillende lijnen door \
+## ook alle lijnen eruit halen waar geen centrale letter inzit ($5)
+cat words | sed "s/^\(.*\)$/\1#\1/i" | grep -i "$5" | \
+
+## alle letters die meegegeven zijn, eruit halen, indien
+## het woord alleen deze letters bevatte, dan zal de lijn
+## beginnen "#"
+
+sed "s/^\([^#]*\)$1\([^#]*#\)/\1\2/i" | \
+sed "s/^\([^#]*\)$2\([^#]*#\)/\1\2/i" | \
+sed "s/^\([^#]*\)$3\([^#]*#\)/\1\2/i" | \
+sed "s/^\([^#]*\)$4\([^#]*#\)/\1\2/i" | \
+sed "s/^\([^#]*\)$5\([^#]*#\)/\1\2/i" | \
+sed "s/^\([^#]*\)$6\([^#]*#\)/\1\2/i" | \
+sed "s/^\([^#]*\)$7\([^#]*#\)/\1\2/i" | \
+sed "s/^\([^#]*\)$8\([^#]*#\)/\1\2/i" | \
+sed "s/^\([^#]*\)$9\([^#]*#\)/\1\2/i" | \
+
+grep "^#...." | tr -d "#" |sort -f
+
