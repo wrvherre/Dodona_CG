@@ -6,8 +6,8 @@
 length=$(cat $1 | wc -l)
 
 for((i=1;i<$length+1;i++));do
-	##neemt telkens een volgende lijn van elk bestand door head en tail te gebriuken
-	##voor en na de lijnen van file 2 staand >>> en <<<.
+	## neemt telkens een volgende lijn van elk bestand door head en tail te gebriuken
+	## voor en na de lijnen van file 2 staand >>> en <<<.
 	## echo -n zorgt er voor dat er geen newline geprint wordt.
 	cat $1 | head -n $i | tail -n 1
 	echo -n ">>>"
