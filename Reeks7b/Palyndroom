@@ -1,0 +1,44 @@
+#!/bin/bash
+
+omgekeerd ()
+{
+	echo $1 | rev | tr 'ATCG' 'TAGC'
+}
+
+def_length=0
+def_word='temp'
+
+langstePalindroom ()
+{
+	word=$1
+	length=${#word}
+
+	palindroom="placeholder"
+
+	for((i=0;i<$length;i++))
+	do
+		for((l=0;l<=$length-i;l++))
+		do
+##			echo ${word:i:l}
+			if [ ${1:i:l} == $(omgekeerd ${1:i:l}) ]
+			then
+				word_temp=${word:i:l}
+				word_length=${#word_temp}
+				if [ $word_length -gt $def_length ]; then
+					def_length=$word_length
+					def_word=$word_temp
+				fi
+				##echo ${word:i:l}
+			fi
+		done
+	done
+	echo $def_word
+}
+
+
+
+if [ $1 == "omgekeerd" ]; then
+	echo $(omgekeerd $2)
+elif [ $1 == "palindroom" ]; then
+	echo $(langstePalindroom $2)
+fi
