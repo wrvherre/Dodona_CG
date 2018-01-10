@@ -1,0 +1,32 @@
+#!/bin/bash
+
+value=0
+arg_count=$#
+args=( $1 $2 $3 $4 $5 $6 $7 $8 $9 )
+map=( 1 20 360 7200 144000 2880000 57600000 1152000000 )
+
+
+
+
+## Alle argumenten omgekeerd aflopen
+
+for(( i=$arg_count-1; i>=0; i-- ));do
+	arg=${args[i]}
+	length=${#arg}
+	## Alle karakters aflopen van het argument
+	## Afhankelijk van de "Mapping" bij de totale $value optellen
+	for(( l=0;l<$length;l++ ))
+	do
+		if [ ${arg:$l:1} == "." ]
+		then
+			value=$((value+1*${map[$arg_count-$i-1]}))
+		elif [ ${arg:$l:1} == "-" ]
+		then
+			value=$((value+5*${map[$arg_count-$i-1]}))
+		elif [ ${arg:$l:1} == "S" ]
+		then
+			value=$((value))
+		fi
+	done
+done
+echo $value
