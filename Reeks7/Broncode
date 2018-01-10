@@ -1,3 +1,9 @@
 #!/bin/bash
 
+## Zoekt bestanden in $1, met naam .$2
+## Daarna worden deze bestanden 'doorzocht' door grep
+## Indien er iets gevonden word, wordt dit afgeprint met het line-number (optie -n)
+## en de volledige lijn, gescheiden door ":" (standaard in grep).
+
+
 find $1 -name "*.$2" | xargs grep -nH "$3"
