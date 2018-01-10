@@ -1,0 +1,10 @@
+#!/bin/bash
+
+## Alle huizen worden dag per dag van links naar rechts afgelopen 
+## A -> B -> C -> D -> A -> B -> ...
+## Er kan dus gebruik gemaakt worden van de modulo-operator
+
+array=(A B C D)
+index=$(( $1%4-1 ))
+
+echo ${array[$index]}
