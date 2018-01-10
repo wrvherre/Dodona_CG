@@ -1,0 +1,19 @@
+### Deel 1 ###
+#plaats hieronder je oplossing:
+/^s
+
+### Deel 2 ###
+#plaats hieronder je oplossing:
+/h$
+
+### Deel 3 ###
+#plaats hieronder je oplossing:
+/^[a-z]*[^aeiou]:
+
+### Deel 4 ###
+#plaats hieronder je oplossing:
+g/.*:.*:.*:[0-9][0-9][0-9]*:.*:.*:
+
+### Deel 5 ###
+#plaats hieronder je oplossing:
+g/[^:]*[_][^:]*:.*bash$
