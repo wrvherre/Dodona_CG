@@ -1,0 +1,20 @@
+#! /bin/bash 
+
+echo "Content-type: text/html"  #CGI intro zoals nodig is
+echo
+
+cp amerika.svg tempkleurenbestand.svg  #werkwijze analoog aan hierboven, bestand kopiëren om te gebruiken
+echo "$QUERY_STRING" | tr "&" "\n" > tempkleur #argumenten splitsen regel per regel in apart bestand
+
+lines=$(cat tempkleur | wc -l)  #analoog werken zoals hierboven, regel per regel id en kleur bepalen en aanpassen
+
+for line in $(cat tempkleur | tail -$lines)
+do
+        id=$(echo $line | sed 's/=.*//')
+        kleur=$(echo $line | sed 's/.*=//')
+        sed -i 's/\(id="'$id'"\)/\1 style="fill:'$kleur'"/I' tempkleurenbestand.svg
+done
+cat tempkleurenbestand.svg  #html-bestand openenen voor dodona, garbage cleanup erna
+rm tempkleurenbestand.svg
+rm tempkleur
+exit 0
