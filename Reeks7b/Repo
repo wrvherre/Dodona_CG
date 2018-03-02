@@ -1,0 +1,53 @@
+=0
+merge=0
+naam=''
+amount=3
+while getopts ":c:b:m" opt; do
+        case "$opt" in
+        c ) amount=$OPTARG #basisaantal commits is 3, indien c-vlag opgegeven wordt, moet het nummer aangepast worden
+                ;;
+        b ) naam=$OPTARG   #branchnaam opslaan, ik hou een teller bij voor als iemand zou willen mergen zonder branch op te geven
+            ((merge++))
+                ;;
+        m ) ((merge++))   #kwestie dat de m-vlag iets doet lel
+                ;;
+        \? ) echo "Syntaxis: repogen [-b <string>] [-c <integer>] [-m] dirname" 1>&2  #error uitschrijven als syntax fout is
+                exit 1
+        esac
+done
+shift $((OPTIND -1))
+if [ $# -eq 1 ]    #er moet een naam meegegeven worden om de git-directory mee te initialiseren, maar zo'n directory mag nog niet bestaan
+then                    # alle output naar /dev/null via &> /dev/null
+
+        if [ -d $1 ]
+        then
+                echo "repogen: bestandsnaam bestaat reeds" 1>&2
+                exit 2
+        else
+                git init $1 &> /dev/null
+                cd $1
+                touch README.md
+                git add README.md &> /dev/null
+                git commit -m "initial commit" &> /dev/null
+                if [[ ! -z $naam ]]                             #als een branchnaam werd meegegeven, deze aanmaken en daarop committen
+                then
+                        git checkout -b $naam &> /dev/null
+                fi
+                while (( i < $amount )) ; do
+                        wget whatthecommit.com/index.txt -q                   #site downloaden, gaat in index.txt bestand
+                        mesg=$(cat index.txt )                                #mesg opslaan en gebruiken in commit en dergelijk
+                        ((i++))
+                        echo "$i) $mesg" >> README.md
+                        git commit -a -m "$mesg" &> /dev/null
+                        rm index.txt                           #index-bestand verwijderen want in volgende doorloop van lus maak je een nieuw
+                        done
+                if [ $merge -eq 2 ] ; then
+                        git checkout master &> /dev/null               #branch mergen met master als branch bestaat EN merge vlag werd meegegeven.
+                        git merge $naam &> /dev/null
+                fi
+        fi
+else
+echo "Syntaxis: repogen [-b <string>] [-c <integer>] [-m] dirname" 1>&2
+exit 1
+fi
+exit 0
