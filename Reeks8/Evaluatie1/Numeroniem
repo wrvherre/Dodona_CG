@@ -1,3 +1,0 @@
-echo "PLACEHOLDER" | sed "s/^..//"| awk '{print length($0)}'
-
-## De eerste 2 karakters verwijderen (gemakkelijker dan de eerste en tweede), daarna tellen met awk.

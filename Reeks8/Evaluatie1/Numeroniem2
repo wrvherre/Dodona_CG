@@ -1,4 +1,0 @@
-echo "PLACEHOLDER" CIJFER | sed "s/^\(.\)\(.*\)\(.\) \(.*\)/\1\4\3/"
-
-## De eerste en laatste letter van het woord apart nemen met sed, alsook het cijfer,
-## dan correct rangschikken met het cijfer ertussen.

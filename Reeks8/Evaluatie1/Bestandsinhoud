@@ -1,3 +1,0 @@
-find /bin -type f -executable -exec file -b {} + | cut -d ',' -f 1 | sort | uniq -c | head -n5 | sort -t ' ' -k1rn -k2
-
-## <file> toepassen op elk gevonden bestand in <find>, daarna het deel na de komma verwijderen met cut, sorteren, uniceren en tellen. Dan de eerste 5 nemen en sorteren zoals aangegeven.
